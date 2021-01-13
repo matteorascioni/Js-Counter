@@ -10,7 +10,10 @@ body {
     align-items: center;
     height: 100vh;
     font-family: "Lato", sans-serif;
-    background: rgb(41, 183, 248);
+    background: linear-gradient(
+        to right,
+        rgb(3, 167, 243), rgb(96, 214, 253),  rgb(3, 167, 243), rgb(96, 214, 253)
+    );
 }
 
 .container {
